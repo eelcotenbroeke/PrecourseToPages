@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ITC Precourse main</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <h3 class="h3">
+        Contact
+      </h3>
+    </div>
+    <form class="form" id="formData">
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control must"
+            id="firstName"
+            placeholder="First name"
+            required="true"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            placeholder="Last name"
+          />
+        </div>
+      </div>
+      <div id="row">
+        <input
+          type="email"
+          class="form-control must"
+          id="inputEmail"
+          placeholder="Email"
+          required="true"
+        />
+      </div>
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control must"
+            id="comments"
+            placeholder="Comments"
+            required="true"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="number"
+            class="form-control must"
+            id="integer"
+            placeholder="type a number"
+            required="true"
+          />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" id="formSubmit" disabled>
+        send
+      </button>
+    </form>
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <hr class="clearfix w-100 d-md-none pb-3" />
+          <div class="col">
+            <ul class="navbar-nav footer-list">
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="footerContainer"></div>
+    </footer>
+    <script src="./js/contact.js"></script>
+    <script src="./js/footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+# Changelog
+Changes realized on the precourse assigment for the summer fullStack Development cohort of ITC.
+
+## 7-5-2020
+
+### about.js
+* the for loop that handles the footer array can now add as many iterated items as required.
+* Edge case realized on the footer Array
+* Simplified map functionality where i can send arguments to a generic map generator  and the a new map positiion and marker are realized.
+
+### contact.js
+* hardcoded element selection has been replaced by .length method 
+* deleteFormData is now a generic function that accepts arguments
+
+### portfolio.js
+* fetch function is generic 
+* githubprofilegenerator is a seperate function 
+* basic (if else statuscode) error handling case has been added to the fetch function

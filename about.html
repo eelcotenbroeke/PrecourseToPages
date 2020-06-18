@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ITC Precourse main</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <h3 class="h3">
+        About
+      </h3>
+      <div class="card-container">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Why coding?</h5>
+            <p class="card-text">
+              The so-called obsession to gain real knowledge in the field of FSD
+              evolves around one simple human need. Gain knowledge in a time
+              where you believe you need to reinvent yourself.
+            </p>
+            <a
+              href="https://www.youtube.com/watch?v=ocwnns57cYQ"
+              class="btn btn-primary button"
+              >myView</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Professional background</h5>
+            <p class="card-text">
+              The bulk of my career evolved around acquiring and retaining B2C
+              users for mobile games.
+            </p>
+            <a href="https://songo.com/" class="btn btn-primary button"
+              >myWork</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">
+              I studied political science in both the Netherlands and Hong Kong.
+              The areas of expertise i touched upon were history, law and public
+              administration
+            </p>
+            <a
+              href="https://www.thehagueuniversity.com/programmes/bachelors/european-studies-4"
+              class="btn btn-primary button"
+              >myUni</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="personal_details">
+        <div class="map-container">
+          <div id="map"></div>
+          <div class="button-maps">
+            <button
+              type="button"
+              class="btn btn-success previous navigate"
+              id="previous"
+            >
+              Previous
+            </button>
+            <button
+              type="button"
+              class="btn btn-success next navigate"
+              id="next"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+        <div class="list-container">
+          <ul class="list-group residences">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Heino
+              <span class="badge badge-primary badge-pill">4 years</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Cuyk <span class="badge badge-primary badge-pill">6 years</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Velden
+              <span class="badge badge-primary badge-pill">1 year</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Grubbenvorst
+              <span class="badge badge-primary badge-pill">7 years</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              The Hague
+              <span class="badge badge-primary badge-pill">10 years</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Hong Kong
+              <span class="badge badge-primary badge-pill">1 year</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              San Jose
+              <span class="badge badge-primary badge-pill">1 year</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Sydney
+              <span class="badge badge-primary badge-pill">1 year</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Madrid
+              <span class="badge badge-primary badge-pill">2 years</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center place"
+            >
+              Tel Aviv
+              <span class="badge badge-primary badge-pill">7 years</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <hr class="clearfix w-100 d-md-none pb-3" />
+          <div class="col">
+            <ul class="navbar-nav footer-list">
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="./">Home</a>
+              </li>
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item footer-list-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="footerContainer"></div>
+    </footer>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCITyh1CqIhRGZAl3qv9fVNNzOEw2AeSm8&callback=initMapDefault"
+      async
+      defer
+    ></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/footer.js"></script>
+  </body>
+</html>
